@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ぬいをおしゃれに</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+  <script src="main.js" ></script>
+  <link rel="stylesheet" href="style.css">
+    <a href="index.html" ></a>
+</head>
+<body>
+
+
+<section id="contents">
+  <div class="flex-container">
+
+
+    <!-- 合成結果用のcanvas -->
+    <div class="flex-item">
+    <canvas id="concat" width="300" height="300"></canvas>
+
+      <!-- 消しゴム -->
+  <p id="eraser"><button type="button2" id="btn-eraser"><img src="images/eraser-solid.svg" width="32" height="32"></button></p>
+    </div>
+
+    <div class="box">
+    <h1><div>
+    <!-- 合成するcanvas body -->
+    <span><button type="button1" id="btn-concat"><canvas id="image1" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat102"><canvas id="image102" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat103"><canvas id="image103" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat104"><canvas id="image104" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat105"><canvas id="image105" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat106"><canvas id="image106" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat107"><canvas id="image107" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat108"><canvas id="image108" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat109"><canvas id="image109" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat110"><canvas id="image110" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat111"><canvas id="image111" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat112"><canvas id="image112" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat113"><canvas id="image113" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat114"><canvas id="image114" width="100" height="100"></canvas></button></span>
+    <span><button type="button1" id="btn-concat115"><canvas id="image115" width="100" height="100"></canvas></button></span>
+    </div></h1>
+
+    <h2><div>
+    <!-- 合成するcanvas leg -->
+    <span><button type="button1-2" id="btn-concat2"><canvas id="image2" width="100" height="100"></canvas></button></span>
+    <span><button type="button1-2" id="btn-concat202"><canvas id="image202" width="100" height="100"></canvas></button></span>
+    <span><button type="button1-2" id="btn-concat203"><canvas id="image203" width="100" height="100"></canvas></button></span>
+    <span><button type="button1-2" id="btn-concat204"><canvas id="image204" width="100" height="100"></canvas></button></span>
+    <span><button type="button1-2" id="btn-concat205"><canvas id="image205" width="100" height="100"></canvas></button></span>
+    <span><button type="button1-2" id="btn-concat206"><canvas id="image206" width="100" height="100"></canvas></button></span>
+    </div></h2>
+
+    </div>
+</section>
+
+<ul>
+  <li>洋服の画像をクリックすると合成します</li>
+  <li>「<img src="images/eraser-solid.svg" width="18" height="18">」ボタンをクリックすると合成結果をクリアします</li>
+</ul>
+</body>
+</html>
+
+
+<!-- 参考ページ<https://blog.katsubemakito.net/html5/canvas-concat> -->
+<!-- link rel="stylesheet" type="text/css" media="all" -->
