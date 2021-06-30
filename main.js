@@ -301,7 +301,7 @@ function drawImage115(){
 }
 function drawImage116(){
    const Body16 = new Image();
-  Body16.src = "images/body16.PNG";
+  Body16.src = "images/body16.png";
   Body16.onload = () =>{
     const canvas = document.querySelector("#image116");
     const ctx = canvas.getContext("2d");
@@ -310,7 +310,7 @@ function drawImage116(){
 }
 function drawImage117(){
    const Body17 = new Image();
-  Body17.src = "images/body17.PNG";
+  Body17.src = "images/body17.png";
   Body17.onload = () =>{
     const canvas = document.querySelector("#image117");
     const ctx = canvas.getContext("2d");
@@ -319,7 +319,7 @@ function drawImage117(){
 }
 function drawImage118(){
    const Body18 = new Image();
-  Body18.src = "images/body18.PNG";
+  Body18.src = "images/body18.png";
   Body18.onload = () =>{
     const canvas = document.querySelector("#image118");
     const ctx = canvas.getContext("2d");
@@ -328,7 +328,7 @@ function drawImage118(){
 }
 function drawImage119(){
    const Body19 = new Image();
-  Body19.src = "images/body19.PNG";
+  Body19.src = "images/body19.png";
   Body19.onload = () =>{
     const canvas = document.querySelector("#image119");
     const ctx = canvas.getContext("2d");
@@ -337,7 +337,7 @@ function drawImage119(){
 }
 function drawImage120(){
    const Body20 = new Image();
-  Body20.src = "images/body20.PNG";
+  Body20.src = "images/body20.png";
   Body20.onload = () =>{
     const canvas = document.querySelector("#image120");
     const ctx = canvas.getContext("2d");
@@ -401,7 +401,7 @@ function drawImage206(){
 }
 function drawImage207(){
    const Leg7 = new Image();
-  Leg7.src = "images/leg07.PNG";
+  Leg7.src = "images/leg07.png";
   Leg7.onload = () =>{
     const canvas = document.querySelector("#image207");
     const ctx = canvas.getContext("2d");
@@ -410,7 +410,7 @@ function drawImage207(){
 }
 function drawImage208(){
    const Leg8 = new Image();
-  Leg8.src = "images/leg08.PNG";
+  Leg8.src = "images/leg08.png";
   Leg8.onload = () =>{
     const canvas = document.querySelector("#image208");
     const ctx = canvas.getContext("2d");
@@ -419,7 +419,7 @@ function drawImage208(){
 }
 function drawImage209(){
    const Leg9 = new Image();
-  Leg9.src = "images/leg09.PNG";
+  Leg9.src = "images/leg09.png";
   Leg9.onload = () =>{
     const canvas = document.querySelector("#image209");
     const ctx = canvas.getContext("2d");
@@ -428,7 +428,7 @@ function drawImage209(){
 }
 function drawImage210(){
    const Leg10 = new Image();
-  Leg10.src = "images/leg10.PNG";
+  Leg10.src = "images/leg10.png";
   Leg10.onload = () =>{
     const canvas = document.querySelector("#image210");
     const ctx = canvas.getContext("2d");
@@ -437,7 +437,7 @@ function drawImage210(){
 }
 function drawImage211(){
    const Leg11 = new Image();
-  Leg11.src = "images/leg11.PNG";
+  Leg11.src = "images/leg11.png";
   Leg11.onload = () =>{
     const canvas = document.querySelector("#image211");
     const ctx = canvas.getContext("2d");
@@ -446,7 +446,7 @@ function drawImage211(){
 }
 function drawImage212(){
    const Leg12 = new Image();
-  Leg12.src = "images/leg12.PNG";
+  Leg12.src = "images/leg12.png";
   Leg12.onload = () =>{
     const canvas = document.querySelector("#image212");
     const ctx = canvas.getContext("2d");
@@ -455,7 +455,7 @@ function drawImage212(){
 }
 function drawImage213(){
    const Leg13 = new Image();
-  Leg13.src = "images/leg13.PNG";
+  Leg13.src = "images/leg13.png";
   Leg13.onload = () =>{
     const canvas = document.querySelector("#image213");
     const ctx = canvas.getContext("2d");
