@@ -18,12 +18,24 @@ window.onload = () => {
   drawImage113();
   drawImage114();
   drawImage115();
+  drawImage116();
+  drawImage117();
+  drawImage118();
+  drawImage119();
+  drawImage120();
   drawImage2();
   drawImage202();
   drawImage203();
   drawImage204();
   drawImage205();
   drawImage206();
+  drawImage207();
+  drawImage208();
+  drawImage209();
+  drawImage210();
+  drawImage211();
+  drawImage212();
+  drawImage213();
 
 
    // 「消しゴム」ボタンを押したらクリア
@@ -77,6 +89,21 @@ window.onload = () => {
   document.querySelector("#btn-concat115").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image115"]);
     });
+  document.querySelector("#btn-concat116").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image116"]);
+    });
+  document.querySelector("#btn-concat117").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image117"]);
+    });
+  document.querySelector("#btn-concat118").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image118"]);
+    });
+  document.querySelector("#btn-concat119").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image119"]);
+    });
+  document.querySelector("#btn-concat120").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image120"]);
+    });
 
    document.querySelector("#btn-concat2").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image2"]);
@@ -95,6 +122,27 @@ window.onload = () => {
   });
   document.querySelector("#btn-concat206").addEventListener("click", ()=>{
     concatCanvas("#concat", ["#image206"]);
+  });
+  document.querySelector("#btn-concat207").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image207"]);
+  });
+  document.querySelector("#btn-concat208").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image208"]);
+  });
+  document.querySelector("#btn-concat209").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image209"]);
+  });
+  document.querySelector("#btn-concat210").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image210"]);
+  });
+  document.querySelector("#btn-concat211").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image211"]);
+  });
+  document.querySelector("#btn-concat212").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image212"]);
+  });
+  document.querySelector("#btn-concat213").addEventListener("click", ()=>{
+    concatCanvas("#concat", ["#image213"]);
   });
 
 
@@ -251,6 +299,51 @@ function drawImage115(){
     ctx.drawImage(Body15, 0, 0, canvas.width, canvas.height);
   }
 }
+function drawImage116(){
+   const Body16 = new Image();
+  Body16.src = "images/body16.PNG";
+  Body16.onload = () =>{
+    const canvas = document.querySelector("#image116");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body16, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage117(){
+   const Body17 = new Image();
+  Body17.src = "images/body17.PNG";
+  Body17.onload = () =>{
+    const canvas = document.querySelector("#image117");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body17, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage118(){
+   const Body18 = new Image();
+  Body18.src = "images/body18.PNG";
+  Body18.onload = () =>{
+    const canvas = document.querySelector("#image118");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body18, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage119(){
+   const Body19 = new Image();
+  Body19.src = "images/body19.PNG";
+  Body19.onload = () =>{
+    const canvas = document.querySelector("#image119");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body19, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage120(){
+   const Body20 = new Image();
+  Body20.src = "images/body20.PNG";
+  Body20.onload = () =>{
+    const canvas = document.querySelector("#image120");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Body20, 0, 0, canvas.width, canvas.height);
+  }
+}
 
 function drawImage2(){
    const Leg1 = new Image();
@@ -304,6 +397,69 @@ function drawImage206(){
     const canvas = document.querySelector("#image206");
     const ctx = canvas.getContext("2d");
     ctx.drawImage(Leg6, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage207(){
+   const Leg7 = new Image();
+  Leg7.src = "images/leg07.PNG";
+  Leg7.onload = () =>{
+    const canvas = document.querySelector("#image207");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg7, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage208(){
+   const Leg8 = new Image();
+  Leg8.src = "images/leg08.PNG";
+  Leg8.onload = () =>{
+    const canvas = document.querySelector("#image208");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg8, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage209(){
+   const Leg9 = new Image();
+  Leg9.src = "images/leg09.PNG";
+  Leg9.onload = () =>{
+    const canvas = document.querySelector("#image209");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg9, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage210(){
+   const Leg10 = new Image();
+  Leg10.src = "images/leg10.PNG";
+  Leg10.onload = () =>{
+    const canvas = document.querySelector("#image210");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg10, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage211(){
+   const Leg11 = new Image();
+  Leg11.src = "images/leg11.PNG";
+  Leg11.onload = () =>{
+    const canvas = document.querySelector("#image211");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg11, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage212(){
+   const Leg12 = new Image();
+  Leg12.src = "images/leg12.PNG";
+  Leg12.onload = () =>{
+    const canvas = document.querySelector("#image212");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg12, 0, 0, canvas.width, canvas.height);
+  }
+}
+function drawImage213(){
+   const Leg13 = new Image();
+  Leg13.src = "images/leg13.PNG";
+  Leg13.onload = () =>{
+    const canvas = document.querySelector("#image213");
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(Leg13, 0, 0, canvas.width, canvas.height);
   }
 }
 
